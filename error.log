@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/jjschlosser/Code/obs-month-generator/obs_month_generator.py", line 91, in <module>
+    generate_template(MONTH, YEAR, TASK_LIST, DIET_LIST)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jjschlosser/Code/obs-month-generator/obs_month_generator.py", line 65, in generate_template
+    month_num = list(calendar.month).index(month)
+                ~~~~^^^^^^^^^^^^^^^^
+TypeError: 'method' object is not iterable
